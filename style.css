@@ -1,0 +1,126 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --navbar-higt: 59px;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 80px;
+    width: 100%;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    margin: 0px 10px;
+    font-size: 1.3rem;
+}
+
+#logo img {
+    height: 65px;
+    padding: 0px 10px;
+}
+
+li.item {
+    display: inline-block;
+    font-size: 16px;
+    line-height: inherit;
+    letter-spacing: 0;
+}
+
+#navbar ul {
+    display: inline-flex;
+    list-style-type: none;
+    margin: 0px 0px 0px 613px;
+}
+
+#navbar ul li ite {
+    width: 89px;
+
+}
+
+#navbar ul li a {
+    padding: 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    line-height: inherit;
+    letter-spacing: 0;
+    color: white;
+}
+
+#navbar ul li a:hover {
+    color: rgb(8, 238, 8);
+}
+
+.container {
+    height: 80vh;
+    background-color: black;
+    color: white;
+    width: 70%;
+    margin: 12px auto;
+    padding: 18px;
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 981px 75vh;
+}
+.songlists{
+    overflow: auto;
+    margin: 23px auto;
+}
+
+.songItem {
+    display: flex;
+    height: 31px;
+    margin: 11px 5px;
+    background-color: white;
+    color: black;
+    width: 452px;
+    border-radius: 20px;
+    justify-content: space-between;
+    padding: 7px;
+}
+
+.songlistplay {
+    margin: 6px 35px;
+}
+
+.songItem img {
+    border-radius: 17px;
+}
+
+.bottom {
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    margin: 0px;
+    color: white;
+    height: 80px;
+    flex-direction: column;
+}
+
+.bottom i {
+    padding: 2px;
+    margin: 6px 2px;
+}
+
+#myprogressBar {
+    width: 75vw;
+}
+.gif{
+    position: absolute;
+    left: 12vw;
+}
+.gif img{
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+}
